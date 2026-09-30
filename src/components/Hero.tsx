@@ -55,7 +55,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.9, delay: 0.15, ease: EASE_OUT }}
-            className="mx-auto mb-8 max-w-[520px] font-serif text-[19px] font-light leading-[1.6] text-[#f5ede0]/80 sm:mx-0 sm:text-center"
+            className="mx-0 mb-8 max-w-[520px] font-serif text-[19px] font-light leading-[1.6] text-[#f5ede0]/80 sm:mx-auto"
           >
             A handcrafted menu of teas, smoothies, and mousse drinks — organic milk from Straus,
             fresh fruit from local farmers, and toppings made from scratch every morning.

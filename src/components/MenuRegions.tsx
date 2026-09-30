@@ -43,7 +43,7 @@ export default function MenuRegions() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.55, delay: index * 0.1, ease: 'easeOut' }}
-            className="region-row flex cursor-pointer flex-col gap-4 border-t border-border py-9 last:border-b sm:flex-row sm:items-center sm:justify-between lg:py-[36px]"
+            className="region-row group flex cursor-pointer flex-col gap-4 border-t border-border py-9 last:border-b sm:flex-row sm:items-center sm:justify-between lg:py-[36px]"
           >
             {/* Left column */}
             <div className="max-w-[560px]">
